@@ -30,7 +30,6 @@ else if(qntdDespesa > 5){
     qntdDespesa = 5;
 }
 
-
 for(let i = 1; i <= qntdDespesa; i++){
     valorDespesa = window.prompt("Qual o valor da despesa");
     valorDespesa = Number(valorDespesa);
