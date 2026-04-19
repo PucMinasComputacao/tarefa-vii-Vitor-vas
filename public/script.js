@@ -43,6 +43,7 @@ for(let i = 1; i <= qntdDespesa; i++){
 sobra = Number(sobra);
 if(totalDespesa > renda){
     mensagem = "⚠️ Atenção: você gastou mais do que ganhou.";
+    sobra = 0
 }
 else{
     sobra = renda - totalDespesa;
